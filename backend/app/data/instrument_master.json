@@ -1,0 +1,98 @@
+[
+  {
+    "symbol": "H100-SPOT",
+    "display_name": "H100 Spot Compute",
+    "category": "External Compute",
+    "type": "spot_compute_index",
+    "unit": "USD / GPU-hour",
+    "secondary_unit": null,
+    "status": "active_demo",
+    "confidence": "Medium",
+    "data_mode": "manual_public",
+    "methodology": "Median of selected public H100 GPU-hour rental prices."
+  },
+  {
+    "symbol": "H200-SPOT",
+    "display_name": "H200 Spot Compute",
+    "category": "External Compute",
+    "type": "spot_compute_index",
+    "unit": "USD / GPU-hour",
+    "secondary_unit": null,
+    "status": "active_demo",
+    "confidence": "Medium",
+    "data_mode": "manual_public",
+    "methodology": "Median of selected public H200 GPU-hour rental prices."
+  },
+  {
+    "symbol": "GPU-BASKET",
+    "display_name": "AI GPU Basket",
+    "category": "External Compute",
+    "type": "basket_price_index",
+    "unit": "Index Points",
+    "secondary_unit": "USD / weighted GPU-hour",
+    "status": "active_demo",
+    "confidence": "Medium",
+    "data_mode": "derived",
+    "methodology": "Weighted basket of selected public AI GPU rental prices, normalized to an index base of 1000."
+  },
+  {
+    "symbol": "H200/H100-PREMIUM",
+    "display_name": "H200 / H100 Premium",
+    "category": "External Compute",
+    "type": "relative_spread",
+    "unit": "x",
+    "secondary_unit": null,
+    "status": "active_demo",
+    "confidence": "Medium",
+    "data_mode": "derived",
+    "methodology": "H200-SPOT divided by H100-SPOT."
+  },
+  {
+    "symbol": "ACU-CodeFix",
+    "display_name": "ACU CodeFix",
+    "category": "ACU Capability",
+    "type": "capability_index",
+    "unit": "Index Points",
+    "secondary_unit": null,
+    "status": "active_demo",
+    "confidence": "Medium",
+    "data_mode": "manual_public",
+    "methodology": "Top-5 trimmed mean of standardized code repair benchmark scores."
+  },
+  {
+    "symbol": "ACU-Coding/USD",
+    "display_name": "ACU Coding per USD",
+    "category": "ACU Productivity",
+    "type": "cost_efficiency_index",
+    "unit": "ACU / USD",
+    "secondary_unit": null,
+    "status": "active_demo",
+    "confidence": "Medium",
+    "data_mode": "manual_public",
+    "methodology": "Cost-adjusted coding capability index."
+  },
+  {
+    "symbol": "ACU-Reasoning",
+    "display_name": "ACU Reasoning",
+    "category": "ACU Capability",
+    "type": "capability_index",
+    "unit": "Index Points",
+    "secondary_unit": null,
+    "status": "active_demo",
+    "confidence": "Medium",
+    "data_mode": "manual_public",
+    "methodology": "Composite reasoning capability index."
+  },
+  {
+    "symbol": "ACU-CPI",
+    "display_name": "ACU Capability Productivity Index",
+    "category": "ACU Composite",
+    "type": "composite_index",
+    "unit": "Index Points",
+    "secondary_unit": null,
+    "status": "active_demo",
+    "confidence": "Medium",
+    "data_mode": "official_plus_nowcast",
+    "methodology": "Weighted geometric mean of ACU-CodeFix, ACU-Reasoning and ACU-Coding/USD."
+  }
+]

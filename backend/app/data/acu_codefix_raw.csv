@@ -1,0 +1,11 @@
+date,model_id,display_name,provider,base_model,agent_scaffold,run_mode,swe_resolved_pct,swe_resolved_count,swe_total_count,swe_source_url,aider_score_pct,aider_cost_usd,aider_source_url,livecodebench_score_pct,livecodebench_source_url,api_available,notes
+2026-05-30,openai_gpt5_high,GPT-5 high,OpenAI,GPT-5,Aider,model_native,74.9,,,https://www.swebench.com/verified.html,88.0,29.08,https://aider.chat/docs/leaderboards/,,,1,temporary_seed_demo
+2026-05-30,openai_gpt5_medium,GPT-5 medium,OpenAI,GPT-5,Aider,model_native,,,,,86.7,17.69,https://aider.chat/docs/leaderboards/,,,1,temporary_seed_demo
+2026-05-30,anthropic_claude_opus_4_5_high,Claude Opus 4.5 high,Anthropic,Claude Opus 4.5,mini-SWE-agent,official_agentic,76.8,,500,https://www.swebench.com/verified.html,,,,,1,temporary_seed_demo
+2026-05-30,google_gemini_3_flash_high,Gemini 3 Flash high,Google,Gemini 3 Flash,mini-SWE-agent,official_agentic,75.8,,500,https://www.swebench.com/verified.html,,,,,1,temporary_seed_demo
+2026-05-30,google_gemini_2_5_pro_0605,Gemini 2.5 Pro Preview 06-05,Google,Gemini 2.5 Pro,Aider,model_native,,,,,83.1,49.88,https://aider.chat/docs/leaderboards/,,,1,temporary_seed_demo
+2026-05-30,deepseek_v3_2_exp_reasoner,DeepSeek V3.2 Exp Reasoner,DeepSeek,DeepSeek V3.2 Exp,Aider,model_native,,,,,74.2,1.30,https://aider.chat/docs/leaderboards/,,,1,temporary_seed_demo
+2026-05-30,deepseek_v3_2_exp_chat,DeepSeek V3.2 Exp Chat,DeepSeek,DeepSeek V3.2 Exp,Aider,model_native,,,,,70.2,0.88,https://aider.chat/docs/leaderboards/,,,1,temporary_seed_demo
+2026-05-30,qwen3_coder_next,Qwen3-Coder-Next,Alibaba / Qwen,Qwen3-Coder-Next,MiniSWE-Agent,official_agentic,71.1,,500,https://www.swebench.com/verified.html,,,,,1,temporary_seed_demo
+2026-05-30,anthropic_claude_opus_4_20250514,Claude Opus 4 20250514,Anthropic,Claude Opus 4,Aider,model_native,,,,,72.0,65.75,https://aider.chat/docs/leaderboards/,,,1,temporary_seed_demo
+2026-05-30,anthropic_claude_sonnet_4_20250514,Claude Sonnet 4 20250514,Anthropic,Claude Sonnet 4,Aider,model_native,,,,,61.3,26.58,https://aider.chat/docs/leaderboards/,,,1,temporary_seed_demo

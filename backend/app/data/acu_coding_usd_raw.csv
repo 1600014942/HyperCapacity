@@ -1,0 +1,13 @@
+date,model_id,display_name,provider,model_codefix_score,aider_score_pct,aider_cost_usd,input_price_per_mtok,cached_input_price_per_mtok,output_price_per_mtok,pricing_source_url,currency,api_available,cost_mode,notes
+2026-05-30,openai_gpt5_high,GPT-5 high,OpenAI,88.0,88.0,29.0829,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,openai_gpt5_medium,GPT-5 medium,OpenAI,86.7,86.7,17.6930,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,google_gemini_2_5_pro_0605_32k,Gemini 2.5 Pro Preview 06-05,Google,83.1,83.1,49.8822,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,deepseek_v3_2_exp_reasoner,DeepSeek V3.2 Exp Reasoner,DeepSeek,74.2,74.2,1.3045,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,anthropic_claude_opus_4_20250514_32k,Claude Opus 4 20250514,Anthropic,72.0,72.0,65.7484,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,deepseek_v3_2_exp_chat,DeepSeek V3.2 Exp Chat,DeepSeek,70.2,70.2,0.8800,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,anthropic_claude_sonnet_4_20250514_32k,Claude Sonnet 4 20250514,Anthropic,61.3,61.3,26.5755,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,kimi_k2,Kimi K2,Moonshot / Kimi,59.1,59.1,1.2357,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,deepseek_r1,DeepSeek R1,DeepSeek,56.9,56.9,5.4193,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,google_gemini_2_5_flash_0520_24k,Gemini 2.5 Flash Preview 05-20,Google,55.1,55.1,8.5625,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,deepseek_v3_0324,DeepSeek V3 0324,DeepSeek,55.1,55.1,1.1164,,,,https://aider.chat/docs/leaderboards/,USD,1,aider_empirical,temporary_seed_demo
+2026-05-30,qwen3_235b_a22b_no_think,Qwen3 235B A22B no think,Alibaba / Qwen,59.6,59.6,,,,,https://aider.chat/docs/leaderboards/,USD,1,missing_cost,temporary_seed_demo_do_not_include_until_valid_cost_added

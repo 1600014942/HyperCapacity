@@ -33,8 +33,11 @@ import {
 } from 'lucide-react';
 
 // Configuration
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000';
-const API_URL = `${API_BASE_URL}/api/dashboard/overview`;
+// In development, use relative path to leverage Vite proxy
+// In production, use environment variable or absolute URL
+const API_URL = import.meta.env.VITE_API_BASE_URL 
+  ? `${import.meta.env.VITE_API_BASE_URL}/api/dashboard/overview`
+  : '/api/dashboard/overview';
 
 // Fallback data structure
 const fallbackOverview: any = {
@@ -413,13 +416,16 @@ export default function Dashboard() {
     async function load() {
       setLoading(true);
       try {
+        console.log(`[Dashboard] Fetching from: ${API_URL}`);
         const response = await fetch(API_URL, { headers: { Accept: 'application/json' } });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const payload = await response.json();
+        console.log('[Dashboard] Successfully fetched overview data');
         if (!cancelled) {
           setOverview(payload);
         }
       } catch (error: any) {
+        console.error('[Dashboard] Failed to fetch overview:', error);
         if (!cancelled) {
           setOverview({ ...fallbackOverview, api_error: error.message });
         }
